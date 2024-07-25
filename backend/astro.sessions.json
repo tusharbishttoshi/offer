@@ -1,0 +1,2946 @@
+[{
+  "_id": {
+    "$oid": "65b3a82216b6b6989f1726e3"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65b3a2d516b6b6989f1725d2"
+  },
+  "id": 1,
+  "isOnline": true,
+  "astroPrevBalance": 0.77,
+  "review": {
+    "rating": 5,
+    "comment": "",
+    "user": {
+      "$oid": "65b3a2d516b6b6989f1725d2"
+    },
+    "createdAt": {
+      "$date": "2024-01-26T12:40:02.188Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 38,
+  "createdAt": {
+    "$date": "2024-01-26T12:40:02.189Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65b47d702e2c78c6952ba044"
+  },
+  "astro": {
+    "$oid": "658ea193d57b0bb269a96734"
+  },
+  "user": {
+    "$oid": "65b3a2d516b6b6989f1725d2"
+  },
+  "id": 2,
+  "isOnline": true,
+  "astroPrevBalance": 2.31,
+  "review": {
+    "rating": 5,
+    "comment": "I got a great advice in chat. Thank you very much.",
+    "user": {
+      "$oid": "65b3a2d516b6b6989f1725d2"
+    },
+    "createdAt": {
+      "$date": "2024-01-27T03:50:08.452Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 7.529999999999999,
+  "astroEarn": 2.31,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 170,
+  "createdAt": {
+    "$date": "2024-01-27T03:50:08.452Z"
+  },
+  "__v": 0,
+  "adminEarn": 5.219999999999999,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65be2843cd81d9d3f533cbca"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65bcf2fb0c1a1a4f3bb0234b"
+  },
+  "id": 3,
+  "isOnline": true,
+  "astroPrevBalance": 1.1,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-03T11:49:23.007Z"
+    }
+  },
+  "reason": "Technical issues at Astrologer side",
+  "userPaid": 2.51,
+  "astroEarn": 0.33,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 6,
+  "createdAt": {
+    "$date": "2024-02-03T11:49:23.007Z"
+  },
+  "__v": 0,
+  "adminEarn": 2.1799999999999997,
+  "updatedAt": {
+    "$date": "2024-03-16T11:54:56.392Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65be2962cd81d9d3f533da51"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65bcf2fb0c1a1a4f3bb0234b"
+  },
+  "id": 4,
+  "isOnline": true,
+  "astroPrevBalance": 2.5300000000000002,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-03T11:54:10.519Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 5.02,
+  "astroEarn": 1.4300000000000002,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 61,
+  "createdAt": {
+    "$date": "2024-02-03T11:54:10.519Z"
+  },
+  "__v": 0,
+  "adminEarn": 3.5899999999999994,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65be391ec29b5c6125f5ade8"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65bcf2fb0c1a1a4f3bb02343"
+  },
+  "id": 5,
+  "isOnline": true,
+  "astroPrevBalance": 1.9800000000000002,
+  "review": {
+    "rating": 5,
+    "comment": "",
+    "user": {
+      "$oid": "65bcf2fb0c1a1a4f3bb02343"
+    },
+    "createdAt": {
+      "$date": "2024-02-03T13:01:18.750Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": -5.02,
+  "astroEarn": -0.55,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 32,
+  "createdAt": {
+    "$date": "2024-02-03T13:01:18.750Z"
+  },
+  "__v": 0,
+  "adminEarn": -4.47,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65be3d7c53f6724428ed040c"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65bcf2fc0c1a1a4f3bb02363"
+  },
+  "id": 6,
+  "isOnline": true,
+  "astroPrevBalance": 2.97,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-03T13:19:56.829Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 0,
+  "astroEarn": 0.99,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 18,
+  "createdAt": {
+    "$date": "2024-02-03T13:19:56.829Z"
+  },
+  "__v": 0,
+  "adminEarn": -0.99,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65be525c22d86f43b7a0e155"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 7,
+  "isOnline": true,
+  "astroPrevBalance": 3.6300000000000003,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-03T14:49:00.462Z"
+    }
+  },
+  "reason": "Technical issues at client side",
+  "userPaid": 2.51,
+  "astroEarn": 0.66,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 6,
+  "createdAt": {
+    "$date": "2024-02-03T14:49:00.463Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.8499999999999996,
+  "updatedAt": {
+    "$date": "2024-03-16T11:54:58.116Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65be52fceed21f5ad3278706"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 8,
+  "isOnline": true,
+  "astroPrevBalance": 5.390000000000001,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-03T14:51:40.949Z"
+    }
+  },
+  "reason": "Client is not Responding",
+  "userPaid": 2.51,
+  "astroEarn": 1.76,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 6,
+  "createdAt": {
+    "$date": "2024-02-03T14:51:40.949Z"
+  },
+  "__v": 0,
+  "adminEarn": 0.7499999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T11:54:58.484Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c11d9edb5bcfa32bc49cb9"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65c11bc9bf5813e6d9a41244"
+  },
+  "id": 9,
+  "isOnline": true,
+  "astroPrevBalance": 6.380000000000001,
+  "review": {
+    "rating": 4,
+    "comment": "",
+    "user": {
+      "$oid": "65c11bc9bf5813e6d9a41244"
+    },
+    "createdAt": {
+      "$date": "2024-02-05T17:40:46.563Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 7.529999999999999,
+  "astroEarn": 0.99,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 177,
+  "createdAt": {
+    "$date": "2024-02-05T17:40:46.564Z"
+  },
+  "__v": 0,
+  "adminEarn": 6.539999999999999,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c11e54db5bcfa32bc4a1a2"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65c11bc9bf5813e6d9a41244"
+  },
+  "id": 10,
+  "isOnline": true,
+  "astroPrevBalance": 11.770000000000001,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-05T17:43:48.033Z"
+    }
+  },
+  "reason": "Time Out",
+  "userPaid": 17.57,
+  "astroEarn": 5.390000000000001,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 361,
+  "createdAt": {
+    "$date": "2024-02-05T17:43:48.033Z"
+  },
+  "__v": 0,
+  "adminEarn": 12.18,
+  "updatedAt": {
+    "$date": "2024-03-16T11:54:59.425Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c1c2e4db5bcfa32bc64b4a"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 11,
+  "isOnline": true,
+  "astroPrevBalance": 12.430000000000001,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-06T05:25:56.099Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 5.02,
+  "astroEarn": 0.66,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 61,
+  "createdAt": {
+    "$date": "2024-02-06T05:25:56.099Z"
+  },
+  "__v": 0,
+  "adminEarn": 4.359999999999999,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c1c370db5bcfa32bc64fc8"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 12,
+  "isOnline": true,
+  "astroPrevBalance": 12.760000000000002,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-06T05:28:16.162Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 5.02,
+  "astroEarn": 0.33,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 61,
+  "createdAt": {
+    "$date": "2024-02-06T05:28:16.162Z"
+  },
+  "__v": 0,
+  "adminEarn": 4.6899999999999995,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c1c524db5bcfa32bc66094"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 13,
+  "isOnline": true,
+  "astroPrevBalance": 15.840000000000002,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-06T05:35:32.977Z"
+    }
+  },
+  "reason": "Time Out",
+  "userPaid": 10.04,
+  "astroEarn": 3.08,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 216,
+  "createdAt": {
+    "$date": "2024-02-06T05:35:32.977Z"
+  },
+  "__v": 0,
+  "adminEarn": 6.959999999999999,
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:00.704Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c1d366db5bcfa32bc68822"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 14,
+  "isOnline": true,
+  "astroPrevBalance": 16.610000000000003,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-06T06:36:22.067Z"
+    }
+  },
+  "reason": "Time Out",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 60,
+  "createdAt": {
+    "$date": "2024-02-06T06:36:22.067Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:01.036Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c1e1dfdb5bcfa32bc6d0d5"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 15,
+  "isOnline": true,
+  "astroPrevBalance": 18.150000000000002,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-06T07:38:07.505Z"
+    }
+  },
+  "reason": "Time Out",
+  "userPaid": 5.02,
+  "astroEarn": 1.54,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 88,
+  "createdAt": {
+    "$date": "2024-02-06T07:38:07.506Z"
+  },
+  "__v": 0,
+  "adminEarn": 3.4799999999999995,
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:01.412Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c1e291db5bcfa32bc6d20a"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 16,
+  "isOnline": true,
+  "astroPrevBalance": 19.69,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-06T07:41:05.346Z"
+    }
+  },
+  "reason": "Technical issues at client side",
+  "userPaid": 5.02,
+  "astroEarn": 1.54,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 77,
+  "createdAt": {
+    "$date": "2024-02-06T07:41:05.346Z"
+  },
+  "__v": 0,
+  "adminEarn": 3.4799999999999995,
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:01.741Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c1f800db5bcfa32bc72b85"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 17,
+  "isOnline": true,
+  "astroPrevBalance": 22.770000000000003,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-06T09:12:32.334Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 10.04,
+  "astroEarn": 3.08,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 181,
+  "createdAt": {
+    "$date": "2024-02-06T09:12:32.334Z"
+  },
+  "__v": 0,
+  "adminEarn": 6.959999999999999,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c1fd81db5bcfa32bc73925"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 18,
+  "isOnline": true,
+  "astroPrevBalance": 24.310000000000002,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-06T09:36:01.363Z"
+    }
+  },
+  "reason": "Time Out",
+  "userPaid": 5.02,
+  "astroEarn": 1.54,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 90,
+  "createdAt": {
+    "$date": "2024-02-06T09:36:01.364Z"
+  },
+  "__v": 0,
+  "adminEarn": 3.4799999999999995,
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:02.341Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c1fe0fdb5bcfa32bc73fcf"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 19,
+  "isOnline": true,
+  "astroPrevBalance": 25.080000000000002,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-06T09:38:23.637Z"
+    }
+  },
+  "reason": "Technical issues at client side",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 33,
+  "createdAt": {
+    "$date": "2024-02-06T09:38:23.638Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:02.755Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c20033db5bcfa32bc7469b"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 20,
+  "isOnline": true,
+  "astroPrevBalance": 28.160000000000004,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-06T09:47:31.516Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 10.04,
+  "astroEarn": 3.08,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 181,
+  "createdAt": {
+    "$date": "2024-02-06T09:47:31.517Z"
+  },
+  "__v": 0,
+  "adminEarn": 6.959999999999999,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c20876db5bcfa32bc7c3a5"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 21,
+  "isOnline": true,
+  "astroPrevBalance": 28.490000000000002,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-06T10:22:46.834Z"
+    }
+  },
+  "reason": "Technical issues at client side",
+  "userPaid": 2.51,
+  "astroEarn": 0.33,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 15,
+  "createdAt": {
+    "$date": "2024-02-06T10:22:46.834Z"
+  },
+  "__v": 0,
+  "adminEarn": 2.1799999999999997,
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:03.507Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c20a4ddb5bcfa32bc7d494"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 22,
+  "isOnline": true,
+  "astroPrevBalance": 28.82,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-06T10:30:37.577Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.33,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 39,
+  "createdAt": {
+    "$date": "2024-02-06T10:30:37.578Z"
+  },
+  "__v": 0,
+  "adminEarn": 2.1799999999999997,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c20ac7db5bcfa32bc7d860"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 23,
+  "isOnline": true,
+  "astroPrevBalance": 29.15,
+  "review": {
+    "rating": 5,
+    "comment": "",
+    "user": {
+      "$oid": "6550a39fe40751e75186f91c"
+    },
+    "createdAt": {
+      "$date": "2024-02-06T10:32:39.494Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.33,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 16,
+  "createdAt": {
+    "$date": "2024-02-06T10:32:39.495Z"
+  },
+  "__v": 0,
+  "adminEarn": 2.1799999999999997,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c20b64db5bcfa32bc7dcd9"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 24,
+  "isOnline": true,
+  "astroPrevBalance": 29.479999999999997,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-06T10:35:16.786Z"
+    }
+  },
+  "reason": "Time Out",
+  "userPaid": 2.51,
+  "astroEarn": 0.33,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 48,
+  "createdAt": {
+    "$date": "2024-02-06T10:35:16.786Z"
+  },
+  "__v": 0,
+  "adminEarn": 2.1799999999999997,
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:04.793Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c20c05db5bcfa32bc7dfc6"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 25,
+  "isOnline": true,
+  "astroPrevBalance": 30.249999999999996,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-06T10:37:57.352Z"
+    }
+  },
+  "reason": "Time Out",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 58,
+  "createdAt": {
+    "$date": "2024-02-06T10:37:57.352Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:05.452Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c20c2cdb5bcfa32bc7e31c"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 26,
+  "isOnline": true,
+  "astroPrevBalance": 31.019999999999996,
+  "review": {
+    "rating": 4,
+    "comment": "",
+    "user": {
+      "$oid": "6550a39fe40751e75186f91c"
+    },
+    "createdAt": {
+      "$date": "2024-02-06T10:38:36.879Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 12,
+  "createdAt": {
+    "$date": "2024-02-06T10:38:36.879Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c24a33569ac221e61deb9e"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65c2461a29b5e0f7cc4c1549"
+  },
+  "id": 27,
+  "isOnline": true,
+  "astroPrevBalance": 32.01,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-06T15:03:15.942Z"
+    }
+  },
+  "reason": "Time Out",
+  "userPaid": 7.529999999999999,
+  "astroEarn": 0.99,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 128,
+  "createdAt": {
+    "$date": "2024-02-06T15:03:15.943Z"
+  },
+  "__v": 0,
+  "adminEarn": 6.539999999999999,
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:06.402Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c24bd2569ac221e61df411"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65c0d315b5c79617430a420c"
+  },
+  "id": 28,
+  "isOnline": true,
+  "astroPrevBalance": 33,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-06T15:10:10.401Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 7.53,
+  "astroEarn": 0.99,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 181,
+  "createdAt": {
+    "$date": "2024-02-06T15:10:10.401Z"
+  },
+  "__v": 0,
+  "adminEarn": 6.54,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c3182d0572c64892eaa5bd"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65c0c8e35e1a43f747c8808d"
+  },
+  "id": 29,
+  "isOnline": true,
+  "astroPrevBalance": 33.99,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-07T05:42:05.935Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 10.04,
+  "astroEarn": 0.99,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 181,
+  "createdAt": {
+    "$date": "2024-02-07T05:42:05.936Z"
+  },
+  "__v": 0,
+  "adminEarn": 9.049999999999999,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c31d9f0572c64892eab43b"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65c0c8e35e1a43f747c8808d"
+  },
+  "id": 30,
+  "isOnline": true,
+  "astroPrevBalance": 34.980000000000004,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-07T06:05:19.685Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 7.529999999999999,
+  "astroEarn": 0.99,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 140,
+  "createdAt": {
+    "$date": "2024-02-07T06:05:19.686Z"
+  },
+  "__v": 0,
+  "adminEarn": 6.539999999999999,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c31ecd0572c64892eabb7c"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65c0c8e35e1a43f747c8808d"
+  },
+  "id": 31,
+  "isOnline": true,
+  "astroPrevBalance": 35.970000000000006,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-07T06:10:21.838Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 7.529999999999999,
+  "astroEarn": 0.99,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 176,
+  "createdAt": {
+    "$date": "2024-02-07T06:10:21.838Z"
+  },
+  "__v": 0,
+  "adminEarn": 6.539999999999999,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c323210572c64892eaead7"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65c0c8e35e1a43f747c8808d"
+  },
+  "id": 32,
+  "isOnline": true,
+  "astroPrevBalance": 36.300000000000004,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-07T06:28:49.106Z"
+    }
+  },
+  "reason": "Technical issues at client side",
+  "userPaid": 2.51,
+  "astroEarn": 0.33,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 51,
+  "createdAt": {
+    "$date": "2024-02-07T06:28:49.106Z"
+  },
+  "__v": 0,
+  "adminEarn": 2.1799999999999997,
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:08.203Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c3236e0572c64892eaecd7"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65c0c8e35e1a43f747c8808d"
+  },
+  "id": 33,
+  "isOnline": true,
+  "astroPrevBalance": 36.63,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-07T06:30:06.069Z"
+    }
+  },
+  "reason": "Technical issues at client side",
+  "userPaid": 2.51,
+  "astroEarn": 0.33,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 13,
+  "createdAt": {
+    "$date": "2024-02-07T06:30:06.069Z"
+  },
+  "__v": 0,
+  "adminEarn": 2.1799999999999997,
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:08.539Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c32ffc0572c64892eb0c3d"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65c0c8e35e1a43f747c8808d"
+  },
+  "id": 34,
+  "isOnline": true,
+  "astroPrevBalance": 37.400000000000006,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-07T07:23:40.975Z"
+    }
+  },
+  "reason": "Technical issues at client side",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 6,
+  "createdAt": {
+    "$date": "2024-02-07T07:23:40.976Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:08.928Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c34a8e0572c64892ebc62d"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65c345580572c64892eb776e"
+  },
+  "id": 35,
+  "isOnline": true,
+  "astroPrevBalance": 38.39000000000001,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-07T09:17:02.085Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 7.529999999999999,
+  "astroEarn": 0.99,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 136,
+  "createdAt": {
+    "$date": "2024-02-07T09:17:02.085Z"
+  },
+  "__v": 0,
+  "adminEarn": 6.539999999999999,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c34b400572c64892ebda78"
+  },
+  "astro": {
+    "$oid": "658ea193d57b0bb269a96734"
+  },
+  "user": {
+    "$oid": "65c346210572c64892eb7fc6"
+  },
+  "id": 36,
+  "isOnline": true,
+  "astroPrevBalance": 8.690000000000001,
+  "review": {
+    "rating": 4,
+    "comment": "great",
+    "user": {
+      "$oid": "65c346210572c64892eb7fc6"
+    },
+    "createdAt": {
+      "$date": "2024-02-07T09:20:00.886Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 25.099999999999994,
+  "astroEarn": 6.380000000000001,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 596,
+  "createdAt": {
+    "$date": "2024-02-07T09:20:00.886Z"
+  },
+  "__v": 0,
+  "adminEarn": 18.71999999999999,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c34b5f0572c64892ebdeb2"
+  },
+  "astro": {
+    "$oid": "658ea193d57b0bb269a96734"
+  },
+  "user": {
+    "$oid": "65c346210572c64892eb7fc6"
+  },
+  "id": 37,
+  "isOnline": true,
+  "astroPrevBalance": 9.46,
+  "review": {
+    "rating": 4,
+    "comment": "",
+    "user": {
+      "$oid": "65c346210572c64892eb7fc6"
+    },
+    "createdAt": {
+      "$date": "2024-02-07T09:20:31.124Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 1,
+  "createdAt": {
+    "$date": "2024-02-07T09:20:31.124Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c366425170f9b6a7874340"
+  },
+  "astro": {
+    "$oid": "65a911de1c8924d816c66da5"
+  },
+  "user": {
+    "$oid": "65c345f40572c64892eb7e19"
+  },
+  "id": 38,
+  "isOnline": true,
+  "astroPrevBalance": 1.76,
+  "review": {
+    "rating": 5,
+    "comment": "Great advices and very peaceful ",
+    "user": {
+      "$oid": "65c345f40572c64892eb7e19"
+    },
+    "createdAt": {
+      "$date": "2024-02-07T11:15:14.831Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 10.04,
+  "astroEarn": 1.76,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 190,
+  "createdAt": {
+    "$date": "2024-02-07T11:15:14.831Z"
+  },
+  "__v": 0,
+  "adminEarn": 8.28,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c367005170f9b6a78751ed"
+  },
+  "astro": {
+    "$oid": "65a911de1c8924d816c66da5"
+  },
+  "user": {
+    "$oid": "65c345f40572c64892eb7e19"
+  },
+  "id": 39,
+  "isOnline": true,
+  "astroPrevBalance": 2.5300000000000002,
+  "review": {
+    "rating": 5,
+    "comment": "Her readings were accurate during the session and I found very close connections of her reading to reality of my life.",
+    "user": {
+      "$oid": "65c345f40572c64892eb7e19"
+    },
+    "createdAt": {
+      "$date": "2024-02-07T11:18:24.117Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 12,
+  "createdAt": {
+    "$date": "2024-02-07T11:18:24.117Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c36cb95170f9b6a78796e5"
+  },
+  "astro": {
+    "$oid": "658ea207d57b0bb269a96736"
+  },
+  "user": {
+    "$oid": "65c345f40572c64892eb7e19"
+  },
+  "id": 40,
+  "isOnline": true,
+  "astroPrevBalance": 2.31,
+  "review": {
+    "rating": 5,
+    "comment": "Great Experience while having a discussion with her. She is truly gifted one. ",
+    "user": {
+      "$oid": "65c345f40572c64892eb7e19"
+    },
+    "createdAt": {
+      "$date": "2024-02-07T11:42:49.334Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 7.529999999999999,
+  "astroEarn": 2.31,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 159,
+  "createdAt": {
+    "$date": "2024-02-07T11:42:49.335Z"
+  },
+  "__v": 0,
+  "adminEarn": 5.219999999999999,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c389e889ba0c1d3511cbfd"
+  },
+  "astro": {
+    "$oid": "65b7c52d1b06b2d8087c0b40"
+  },
+  "user": {
+    "$oid": "65c3876889ba0c1d351185af"
+  },
+  "id": 41,
+  "isOnline": true,
+  "astroPrevBalance": 0.99,
+  "review": {
+    "rating": 5,
+    "comment": "I found the accurate predictions and very prompt responses",
+    "user": {
+      "$oid": "65c3876889ba0c1d351185af"
+    },
+    "createdAt": {
+      "$date": "2024-02-07T13:47:20.811Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 7.529999999999999,
+  "astroEarn": 0.99,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 176,
+  "createdAt": {
+    "$date": "2024-02-07T13:47:20.811Z"
+  },
+  "__v": 0,
+  "adminEarn": 6.539999999999999,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c3949589ba0c1d35126892"
+  },
+  "astro": {
+    "$oid": "65bf257dc78ba9b57c7ff495"
+  },
+  "user": {
+    "$oid": "65c392f289ba0c1d35124e67"
+  },
+  "id": 42,
+  "isOnline": true,
+  "astroPrevBalance": 0.99,
+  "review": {
+    "rating": 5,
+    "comment": "Amazingly accurate. ",
+    "user": {
+      "$oid": "65c392f289ba0c1d35124e67"
+    },
+    "createdAt": {
+      "$date": "2024-02-07T14:32:53.901Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 7.529999999999999,
+  "astroEarn": 0.99,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 176,
+  "createdAt": {
+    "$date": "2024-02-07T14:32:53.901Z"
+  },
+  "__v": 0,
+  "adminEarn": 6.539999999999999,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c3950b89ba0c1d35126ff2"
+  },
+  "astro": {
+    "$oid": "65bf257dc78ba9b57c7ff495"
+  },
+  "user": {
+    "$oid": "65c392f289ba0c1d35124e67"
+  },
+  "id": 43,
+  "isOnline": true,
+  "astroPrevBalance": 1.76,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-07T14:34:51.958Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 1,
+  "createdAt": {
+    "$date": "2024-02-07T14:34:51.958Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c4871889ba0c1d351606cc"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 44,
+  "isOnline": true,
+  "astroPrevBalance": 39.16000000000001,
+  "review": {
+    "rating": 4,
+    "comment": "",
+    "user": {
+      "$oid": "6550a39fe40751e75186f91c"
+    },
+    "createdAt": {
+      "$date": "2024-02-08T07:47:36.084Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 17,
+  "createdAt": {
+    "$date": "2024-02-08T07:47:36.084Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c4a81889ba0c1d3517307d"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 45,
+  "isOnline": true,
+  "astroPrevBalance": 40.70000000000001,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-08T10:08:24.764Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 5.02,
+  "astroEarn": 1.54,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 101,
+  "createdAt": {
+    "$date": "2024-02-08T10:08:24.764Z"
+  },
+  "__v": 0,
+  "adminEarn": 3.4799999999999995,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c4a82089ba0c1d351731e4"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 46,
+  "isOnline": true,
+  "astroPrevBalance": 42.24000000000001,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-08T10:08:32.556Z"
+    }
+  },
+  "reason": "Technical issues at client side",
+  "userPaid": 5.02,
+  "astroEarn": 1.54,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 103,
+  "createdAt": {
+    "$date": "2024-02-08T10:08:32.556Z"
+  },
+  "__v": 0,
+  "adminEarn": 3.4799999999999995,
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:12.982Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c4b02289ba0c1d3517c818"
+  },
+  "astro": {
+    "$oid": "65b8e4691b06b2d8087c1845"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 47,
+  "isOnline": true,
+  "astroPrevBalance": 1.54,
+  "review": {
+    "rating": 4,
+    "comment": "Very Nice Psychic Reader",
+    "user": {
+      "$oid": "6550a39fe40751e75186f91c"
+    },
+    "createdAt": {
+      "$date": "2024-02-08T10:42:42.606Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 5.02,
+  "astroEarn": 1.54,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 114,
+  "createdAt": {
+    "$date": "2024-02-08T10:42:42.606Z"
+  },
+  "__v": 0,
+  "adminEarn": 3.4799999999999995,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c4d066c4702c2d44502f11"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 48,
+  "isOnline": true,
+  "astroPrevBalance": 43.01000000000001,
+  "review": {
+    "rating": 4,
+    "comment": "",
+    "user": {
+      "$oid": "6550a39fe40751e75186f91c"
+    },
+    "createdAt": {
+      "$date": "2024-02-08T13:00:22.356Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 5,
+  "createdAt": {
+    "$date": "2024-02-08T13:00:22.357Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c4d0fdc4702c2d44503c9f"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 49,
+  "isOnline": true,
+  "astroPrevBalance": 43.780000000000015,
+  "review": {
+    "rating": 4,
+    "comment": "",
+    "user": {
+      "$oid": "6550a39fe40751e75186f91c"
+    },
+    "createdAt": {
+      "$date": "2024-02-08T13:02:53.317Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 23,
+  "createdAt": {
+    "$date": "2024-02-08T13:02:53.317Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c4d307c4702c2d4450844a"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 50,
+  "isOnline": true,
+  "astroPrevBalance": 44.55000000000002,
+  "review": {
+    "rating": 5,
+    "comment": "",
+    "user": {
+      "$oid": "6550a39fe40751e75186f91c"
+    },
+    "createdAt": {
+      "$date": "2024-02-08T13:11:35.365Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 1,
+  "createdAt": {
+    "$date": "2024-02-08T13:11:35.366Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c4d7d4c4702c2d4450f443"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 51,
+  "isOnline": true,
+  "astroPrevBalance": 45.32000000000002,
+  "review": {
+    "rating": 5,
+    "comment": "",
+    "user": {
+      "$oid": "6550a39fe40751e75186f91c"
+    },
+    "createdAt": {
+      "$date": "2024-02-08T13:32:04.616Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 6,
+  "createdAt": {
+    "$date": "2024-02-08T13:32:04.617Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c4d848c4702c2d44510ab0"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 52,
+  "isOnline": true,
+  "astroPrevBalance": 46.090000000000025,
+  "review": {
+    "rating": 5,
+    "comment": "",
+    "user": {
+      "$oid": "6550a39fe40751e75186f91c"
+    },
+    "createdAt": {
+      "$date": "2024-02-08T13:34:00.317Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 1,
+  "createdAt": {
+    "$date": "2024-02-08T13:34:00.317Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c4dc2c5a91b3502e10c1ef"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 53,
+  "isOnline": true,
+  "astroPrevBalance": 46.86000000000003,
+  "review": {
+    "rating": 4,
+    "comment": "",
+    "user": {
+      "$oid": "6550a39fe40751e75186f91c"
+    },
+    "createdAt": {
+      "$date": "2024-02-08T13:50:36.789Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 7,
+  "createdAt": {
+    "$date": "2024-02-08T13:50:36.789Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c4eb535a91b3502e1185ff"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65c4e4be5a91b3502e111621"
+  },
+  "id": 54,
+  "isOnline": true,
+  "astroPrevBalance": 47.190000000000026,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-08T14:55:15.690Z"
+    }
+  },
+  "reason": "Time Out",
+  "userPaid": 2.51,
+  "astroEarn": 0.33,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 14,
+  "createdAt": {
+    "$date": "2024-02-08T14:55:15.690Z"
+  },
+  "__v": 0,
+  "adminEarn": 2.1799999999999997,
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:16.475Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c4eb675a91b3502e118773"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65c4e4be5a91b3502e111621"
+  },
+  "id": 55,
+  "isOnline": true,
+  "astroPrevBalance": 47.520000000000024,
+  "review": {
+    "rating": 5,
+    "comment": "I found a true and accurate readings of my life's current situation from her. She is amazing. God Bless her!!",
+    "user": {
+      "$oid": "65c4e4be5a91b3502e111621"
+    },
+    "createdAt": {
+      "$date": "2024-02-08T14:55:35.791Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.33,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 9,
+  "createdAt": {
+    "$date": "2024-02-08T14:55:35.791Z"
+  },
+  "__v": 0,
+  "adminEarn": 2.1799999999999997,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c505045a91b3502e1291b5"
+  },
+  "astro": {
+    "$oid": "65bf3da5c78ba9b57c809f58"
+  },
+  "user": {
+    "$oid": "65c4f5b25a91b3502e120e03"
+  },
+  "id": 56,
+  "isOnline": true,
+  "astroPrevBalance": 0.66,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-08T16:44:52.197Z"
+    }
+  },
+  "reason": "Client is not Responding",
+  "userPaid": 5.02,
+  "astroEarn": 0.66,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 109,
+  "createdAt": {
+    "$date": "2024-02-08T16:44:52.197Z"
+  },
+  "__v": 0,
+  "adminEarn": 4.359999999999999,
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:17.299Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c5dd1a5a91b3502e14eeeb"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65c3876889ba0c1d351185af"
+  },
+  "id": 57,
+  "isOnline": true,
+  "astroPrevBalance": 48.29000000000003,
+  "review": {
+    "rating": 5,
+    "comment": "",
+    "user": {
+      "$oid": "65c3876889ba0c1d351185af"
+    },
+    "createdAt": {
+      "$date": "2024-02-09T08:06:50.917Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 12,
+  "createdAt": {
+    "$date": "2024-02-09T08:06:50.917Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c5dd455a91b3502e14f455"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65c3876889ba0c1d351185af"
+  },
+  "id": 58,
+  "isOnline": true,
+  "astroPrevBalance": 49.06000000000003,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-09T08:07:33.747Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 6,
+  "createdAt": {
+    "$date": "2024-02-09T08:07:33.747Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c851a25a91b3502e21147c"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 59,
+  "isOnline": true,
+  "astroPrevBalance": 49.830000000000034,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-11T04:48:34.381Z"
+    }
+  },
+  "reason": "Technical issues at client side",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 43,
+  "createdAt": {
+    "$date": "2024-02-11T04:48:34.381Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:18.345Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c851b15a91b3502e211591"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 60,
+  "isOnline": true,
+  "astroPrevBalance": 50.60000000000004,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-11T04:48:49.390Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 35,
+  "createdAt": {
+    "$date": "2024-02-11T04:48:49.390Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c8520a5a91b3502e211c28"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 61,
+  "isOnline": true,
+  "astroPrevBalance": 51.37000000000004,
+  "review": {
+    "rating": 3,
+    "comment": "",
+    "user": {
+      "$oid": "6550a39fe40751e75186f91c"
+    },
+    "createdAt": {
+      "$date": "2024-02-11T04:50:18.104Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 39,
+  "createdAt": {
+    "$date": "2024-02-11T04:50:18.105Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c852985a91b3502e2123b2"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 62,
+  "isOnline": true,
+  "astroPrevBalance": 52.14000000000004,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-11T04:52:40.055Z"
+    }
+  },
+  "reason": "Technical issues at client side",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 36,
+  "createdAt": {
+    "$date": "2024-02-11T04:52:40.055Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998,
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:19.333Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c852f95a91b3502e212993"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "6550a39fe40751e75186f91c"
+  },
+  "id": 63,
+  "isOnline": true,
+  "astroPrevBalance": 53.68000000000004,
+  "review": {
+    "createdAt": {
+      "$date": "2024-02-11T04:54:17.939Z"
+    }
+  },
+  "reason": "Technical issues at client side",
+  "userPaid": 5.02,
+  "astroEarn": 1.54,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 67,
+  "createdAt": {
+    "$date": "2024-02-11T04:54:17.940Z"
+  },
+  "__v": 0,
+  "adminEarn": 3.4799999999999995,
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:19.632Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65eaabbb8d1475c7c0a7d9dc"
+  },
+  "astro": {
+    "$oid": "65bf257dc78ba9b57c7ff495"
+  },
+  "user": {
+    "$oid": "65d5b5425077cb575f22d49d"
+  },
+  "id": 64,
+  "isOnline": true,
+  "astroPrevBalance": 2.42,
+  "review": {
+    "createdAt": {
+      "$date": "2024-03-08T06:10:03.549Z"
+    }
+  },
+  "reason": "Time Out",
+  "userPaid": 5.02,
+  "astroEarn": 0.66,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 119,
+  "createdAt": {
+    "$date": "2024-03-08T06:10:03.549Z"
+  },
+  "__v": 0,
+  "refundStatus": "rejected",
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:19.927Z"
+  },
+  "adminEarn": 4.359999999999999
+},
+{
+  "_id": {
+    "$oid": "65eaaf498d1475c7c0a7e171"
+  },
+  "astro": {
+    "$oid": "65bf257dc78ba9b57c7ff495"
+  },
+  "user": {
+    "$oid": "65d5b5425077cb575f22d49d"
+  },
+  "id": 65,
+  "isOnline": true,
+  "astroPrevBalance": 3.52,
+  "review": {
+    "createdAt": {
+      "$date": "2024-03-08T06:25:13.290Z"
+    }
+  },
+  "reason": "Time Out",
+  "userPaid": 5.02,
+  "astroEarn": 1.1,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 102,
+  "createdAt": {
+    "$date": "2024-03-08T06:25:13.290Z"
+  },
+  "__v": 0,
+  "refundStatus": "refund_completed",
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:20.231Z"
+  },
+  "adminEarn": 3.9199999999999995
+},
+{
+  "_id": {
+    "$oid": "65eab8a65fcc09c38b8e0876"
+  },
+  "astro": {
+    "$oid": "65bf257dc78ba9b57c7ff495"
+  },
+  "user": {
+    "$oid": "65d5b5425077cb575f22d49d"
+  },
+  "id": 66,
+  "isOnline": true,
+  "astroPrevBalance": 4.0600000000000005,
+  "review": {
+    "createdAt": {
+      "$date": "2024-03-08T07:05:10.330Z"
+    }
+  },
+  "reason": "Time Out",
+  "userPaid": 5.02,
+  "astroEarn": 1.54,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 64,
+  "createdAt": {
+    "$date": "2024-03-08T07:05:10.331Z"
+  },
+  "__v": 0,
+  "refundStatus": "rejected",
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:20.853Z"
+  },
+  "adminEarn": 3.4799999999999995
+},
+{
+  "_id": {
+    "$oid": "65eaf34feb4e2478b1327bd3"
+  },
+  "astro": {
+    "$oid": "65bf257dc78ba9b57c7ff495"
+  },
+  "user": {
+    "$oid": "65d5b5425077cb575f22d49d"
+  },
+  "id": 67,
+  "isOnline": true,
+  "astroPrevBalance": 4.83,
+  "review": {
+    "createdAt": {
+      "$date": "2024-03-08T11:15:27.627Z"
+    }
+  },
+  "reason": "Client is not Responding",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 40,
+  "transactionID": "",
+  "createdAt": {
+    "$date": "2024-03-08T11:15:27.631Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:21.290Z"
+  },
+  "__v": 0,
+  "refundStatus": "refund_completed",
+  "adminEarn": 1.7399999999999998
+},
+{
+  "_id": {
+    "$oid": "65eaf46aeb4e2478b13293ba"
+  },
+  "astro": {
+    "$oid": "65bf257dc78ba9b57c7ff495"
+  },
+  "user": {
+    "$oid": "65d5b5425077cb575f22d49d"
+  },
+  "id": 68,
+  "isOnline": true,
+  "astroPrevBalance": 7.140000000000001,
+  "review": {
+    "createdAt": {
+      "$date": "2024-03-08T11:20:10.582Z"
+    }
+  },
+  "reason": "Time Out",
+  "userPaid": 7.529999999999999,
+  "astroEarn": 2.31,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 121,
+  "transactionID": "",
+  "createdAt": {
+    "$date": "2024-03-08T11:20:10.583Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:21.665Z"
+  },
+  "__v": 0,
+  "refundStatus": "refund_completed",
+  "adminEarn": 5.219999999999999
+},
+{
+  "_id": {
+    "$oid": "65eafa64eb4e2478b132b7c1"
+  },
+  "astro": {
+    "$oid": "65bf257dc78ba9b57c7ff495"
+  },
+  "user": {
+    "$oid": "65d5b5425077cb575f22d49d"
+  },
+  "id": 69,
+  "isOnline": true,
+  "astroPrevBalance": 7.91,
+  "review": {
+    "rating": 4,
+    "comment": "",
+    "user": {
+      "$oid": "65d5b5425077cb575f22d49d"
+    },
+    "createdAt": {
+      "$date": "2024-03-08T11:45:40.835Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 60,
+  "transactionID": "TxZT1n2OxMxAEQyxw",
+  "createdAt": {
+    "$date": "2024-03-08T11:45:40.836Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-16T12:32:18.252Z"
+  },
+  "__v": 0,
+  "refundStatus": "refund_completed",
+  "adminEarn": 1.7399999999999998
+},
+{
+  "_id": {
+    "$oid": "65eafb88eb4e2478b132c8b2"
+  },
+  "astro": {
+    "$oid": "65bf257dc78ba9b57c7ff495"
+  },
+  "user": {
+    "$oid": "65d5b5425077cb575f22d49d"
+  },
+  "id": 70,
+  "isOnline": false,
+  "astroPrevBalance": 10.41,
+  "review": {
+    "createdAt": {
+      "$date": "2024-03-08T11:50:32.458Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 7,
+  "astroEarn": 2.5,
+  "timeInSeconds": 111,
+  "transactionID": "TxhFmcoip8NBDUQRC",
+  "createdAt": {
+    "$date": "2024-03-08T11:50:32.458Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  },
+  "__v": 0,
+  "refundStatus": "refund_completed",
+  "adminEarn": 4.5
+},
+{
+  "_id": {
+    "$oid": "65eafb8ceb4e2478b132c8d9"
+  },
+  "astro": {
+    "$oid": "65bf257dc78ba9b57c7ff495"
+  },
+  "user": {
+    "$oid": "65d5b5425077cb575f22d49d"
+  },
+  "id": 71,
+  "isOnline": false,
+  "astroPrevBalance": 12.91,
+  "review": {
+    "createdAt": {
+      "$date": "2024-03-08T11:50:36.899Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 7,
+  "astroEarn": 2.5,
+  "timeInSeconds": 201,
+  "transactionID": "TxIGmn7kZem4FEqO7",
+  "createdAt": {
+    "$date": "2024-03-08T11:50:36.899Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  },
+  "__v": 0,
+  "refundStatus": "rejected",
+  "adminEarn": 4.5
+},
+{
+  "_id": {
+    "$oid": "65eb0a05eb4e2478b13332a4"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65d5b5425077cb575f22d49d"
+  },
+  "id": 73,
+  "isOnline": true,
+  "astroPrevBalance": 55.990000000000045,
+  "review": {
+    "rating": 5,
+    "comment": "nice chat",
+    "user": {
+      "$oid": "65d5b5425077cb575f22d49d"
+    },
+    "createdAt": {
+      "$date": "2024-03-08T12:52:21.151Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 7.529999999999999,
+  "astroEarn": 2.31,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 160,
+  "transactionID": "",
+  "createdAt": {
+    "$date": "2024-03-08T12:52:21.156Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-16T12:05:16.814Z"
+  },
+  "__v": 0,
+  "refundStatus": "refund_completed",
+  "adminEarn": 5.219999999999999
+},
+{
+  "_id": {
+    "$oid": "65ec164aeb4e2478b135ba81"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65c3876889ba0c1d351185af"
+  },
+  "id": 74,
+  "isOnline": true,
+  "astroPrevBalance": 56.76000000000005,
+  "review": {
+    "createdAt": {
+      "$date": "2024-03-09T07:56:58.127Z"
+    }
+  },
+  "reason": "Time Out",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 48,
+  "transactionID": "",
+  "createdAt": {
+    "$date": "2024-03-09T07:56:58.136Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-16T11:55:23.996Z"
+  },
+  "__v": 0,
+  "adminEarn": 1.7399999999999998
+},
+{
+  "_id": {
+    "$oid": "65f5aef2073ec284ad03c897"
+  },
+  "astro": {
+    "$oid": "65bf257dc78ba9b57c7ff495"
+  },
+  "user": {
+    "$oid": "65d5b5425077cb575f22d49d"
+  },
+  "id": 77,
+  "isOnline": true,
+  "astroPrevBalance": -5.43,
+  "review": {
+    "rating": 3,
+    "comment": "",
+    "user": {
+      "$oid": "65d5b5425077cb575f22d49d"
+    },
+    "createdAt": {
+      "$date": "2024-03-16T14:38:42.437Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "adminEarn": 1.7399999999999998,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 27,
+  "transactionID": "TxVjfI7iRnwZoJ1XH",
+  "createdAt": {
+    "$date": "2024-03-16T14:38:42.438Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-20T06:10:58.313Z"
+  },
+  "__v": 0,
+  "refundStatus": "rejected"
+},
+{
+  "_id": {
+    "$oid": "65f5b561073ec284ad03f114"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "user": {
+    "$oid": "65c3876889ba0c1d351185af"
+  },
+  "id": 78,
+  "isOnline": true,
+  "astroPrevBalance": 38.300000000000004,
+  "review": {
+    "rating": 5,
+    "comment": "super analysis for my birth chart",
+    "user": {
+      "$oid": "65c3876889ba0c1d351185af"
+    },
+    "createdAt": {
+      "$date": "2024-03-16T15:06:09.166Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 5.02,
+  "astroEarn": 1.54,
+  "adminEarn": 3.4799999999999995,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 112,
+  "transactionID": "Txa8ItcrBsP3sl9qR",
+  "createdAt": {
+    "$date": "2024-03-16T15:06:09.167Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-16T15:06:09.167Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f7ea77fc0fc16350bce1c2"
+  },
+  "astro": {
+    "$oid": "65bf257dc78ba9b57c7ff495"
+  },
+  "user": {
+    "$oid": "65d5b5425077cb575f22d49d"
+  },
+  "id": 79,
+  "isOnline": true,
+  "astroPrevBalance": -5.1,
+  "review": {
+    "rating": 1,
+    "comment": "",
+    "user": {
+      "$oid": "65d5b5425077cb575f22d49d"
+    },
+    "createdAt": {
+      "$date": "2024-03-18T07:17:11.679Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 2.51,
+  "astroEarn": 0.33,
+  "adminEarn": 2.1799999999999997,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 31,
+  "transactionID": "TxBzs03ZHWNL2Lw0n",
+  "createdAt": {
+    "$date": "2024-03-18T07:17:11.680Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-18T07:17:11.680Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f7ed3bdd74ea318af5d566"
+  },
+  "astro": {
+    "$oid": "65bf257dc78ba9b57c7ff495"
+  },
+  "user": {
+    "$oid": "65d5b5425077cb575f22d49d"
+  },
+  "id": 80,
+  "isOnline": true,
+  "astroPrevBalance": -4.77,
+  "review": {
+    "createdAt": {
+      "$date": "2024-03-18T07:28:59.641Z"
+    }
+  },
+  "reason": "Client is not Responding",
+  "userPaid": 2.51,
+  "astroEarn": 0.33,
+  "adminEarn": 2.1799999999999997,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 41,
+  "transactionID": "Txa8hWMSSKsbDIU2B",
+  "createdAt": {
+    "$date": "2024-03-18T07:28:59.643Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-18T07:28:59.643Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f7f5d1dd74ea318af6456e"
+  },
+  "astro": {
+    "$oid": "65b7c52d1b06b2d8087c0b40"
+  },
+  "user": {
+    "$oid": "65d5b5425077cb575f22d49d"
+  },
+  "id": 81,
+  "isOnline": true,
+  "astroPrevBalance": 1.32,
+  "review": {
+    "createdAt": {
+      "$date": "2024-03-18T08:05:37.869Z"
+    }
+  },
+  "reason": "Time Out",
+  "userPaid": 2.51,
+  "astroEarn": 0.33,
+  "adminEarn": 2.1799999999999997,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 43,
+  "transactionID": "TxB1B2EtH3NemXUHp",
+  "createdAt": {
+    "$date": "2024-03-18T08:05:37.870Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-18T08:05:37.870Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f7f651dd74ea318af65246"
+  },
+  "astro": {
+    "$oid": "65b7c52d1b06b2d8087c0b40"
+  },
+  "user": {
+    "$oid": "65d5b5425077cb575f22d49d"
+  },
+  "id": 82,
+  "isOnline": true,
+  "astroPrevBalance": 2.75,
+  "review": {
+    "createdAt": {
+      "$date": "2024-03-18T08:07:45.126Z"
+    }
+  },
+  "reason": "Time Out",
+  "userPaid": 5.02,
+  "astroEarn": 1.43,
+  "adminEarn": 3.5899999999999994,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 100,
+  "transactionID": "Tx0WkrRxGSed9gegT",
+  "createdAt": {
+    "$date": "2024-03-18T08:07:45.127Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-18T08:07:45.127Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f7f72add74ea318af664db"
+  },
+  "astro": {
+    "$oid": "65b7c52d1b06b2d8087c0b40"
+  },
+  "user": {
+    "$oid": "65d5b5425077cb575f22d49d"
+  },
+  "id": 83,
+  "isOnline": true,
+  "astroPrevBalance": 5.0600000000000005,
+  "review": {
+    "createdAt": {
+      "$date": "2024-03-18T08:11:22.801Z"
+    }
+  },
+  "reason": "Client does not trust my work",
+  "userPaid": 7.529999999999999,
+  "astroEarn": 2.31,
+  "adminEarn": 5.219999999999999,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 163,
+  "transactionID": "TxtrKPw2xgt3Bvcfb",
+  "createdAt": {
+    "$date": "2024-03-18T08:11:22.802Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-18T08:11:22.802Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f7f7e7dd74ea318af67b9a"
+  },
+  "astro": {
+    "$oid": "65b7c52d1b06b2d8087c0b40"
+  },
+  "user": {
+    "$oid": "65f1a7faf76fa0e42e3d813c"
+  },
+  "id": 84,
+  "isOnline": true,
+  "astroPrevBalance": 6.6000000000000005,
+  "review": {
+    "rating": 1,
+    "comment": "",
+    "user": {
+      "$oid": "65f1a7faf76fa0e42e3d813c"
+    },
+    "createdAt": {
+      "$date": "2024-03-18T08:14:31.212Z"
+    }
+  },
+  "reason": "N/A",
+  "userPaid": 5.02,
+  "astroEarn": 1.54,
+  "adminEarn": 3.4799999999999995,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 69,
+  "transactionID": "TxJS49PC2g0V9vyS1",
+  "createdAt": {
+    "$date": "2024-03-18T08:14:31.213Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-18T08:14:31.213Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f7f884dd74ea318af69052"
+  },
+  "astro": {
+    "$oid": "65b7c52d1b06b2d8087c0b40"
+  },
+  "user": {
+    "$oid": "65f1a7faf76fa0e42e3d813c"
+  },
+  "id": 85,
+  "isOnline": true,
+  "astroPrevBalance": 7.370000000000001,
+  "review": {
+    "createdAt": {
+      "$date": "2024-03-18T08:17:08.266Z"
+    }
+  },
+  "reason": "Time Out",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "adminEarn": 1.7399999999999998,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 30,
+  "transactionID": "Tx8vQ00VYzh36Q46L",
+  "createdAt": {
+    "$date": "2024-03-18T08:17:08.267Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-18T08:17:08.267Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f7f99add74ea318af6b420"
+  },
+  "astro": {
+    "$oid": "65b7c52d1b06b2d8087c0b40"
+  },
+  "user": {
+    "$oid": "65f1a7faf76fa0e42e3d813c"
+  },
+  "id": 86,
+  "isOnline": true,
+  "astroPrevBalance": 8.14,
+  "review": {
+    "createdAt": {
+      "$date": "2024-03-18T08:21:46.131Z"
+    }
+  },
+  "reason": "Time Out",
+  "userPaid": 2.51,
+  "astroEarn": 0.77,
+  "adminEarn": 1.7399999999999998,
+  "userPaidPrise": 2.51,
+  "astroEarnPrise": 0.77,
+  "timeInSeconds": 30,
+  "transactionID": "TxvOkwSF7BEexALn7",
+  "createdAt": {
+    "$date": "2024-03-18T08:21:46.131Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-18T08:21:46.131Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65fa9ad289303b00ade918d0"
+  },
+  "astro": {
+    "$oid": "65e99745650ddad3b8dded08"
+  },
+  "user": {
+    "$oid": "65d5b5425077cb575f22d49d"
+  },
+  "id": 84,
+  "isOnline": true,
+  "astroPrevBalance": 28.77,
+  "review": {
+    "createdAt": {
+      "$date": "2024-03-20T08:14:10.125Z"
+    }
+  },
+  "reason": "Client is abusive",
+  "userPaid": 1,
+  "astroEarn": 0.77,
+  "adminEarn": 0.22999999999999998,
+  "userPaidPrise": 1,
+  "astroEarnPrise": 1,
+  "timeInSeconds": 23,
+  "transactionID": "TxXMym7WBKJFE5Tbt",
+  "createdAt": {
+    "$date": "2024-03-20T08:14:10.126Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-20T08:14:10.126Z"
+  },
+  "__v": 0
+}]

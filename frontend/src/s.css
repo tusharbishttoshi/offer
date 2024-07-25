@@ -1,0 +1,45 @@
+@media screen and (max-width:500px) {
+
+    .card1 {
+        min-width: 200px !important;
+        flex: 1 !important;
+        width: auto !important;
+
+    }
+
+    .c {
+        padding: 0px !important;
+    }
+
+    .d {
+        padding: 10px !important;
+    }
+
+    /* .container.card1{
+        padding: 0px !important;
+    } */
+}
+
+@media screen and (max-width:1050px) {
+    .ajf {
+        height: auto !important;
+    }
+
+    .conta {
+        flex-direction: column;
+        height: auto !important;
+    }
+
+    .leftb {
+        overflow: unset !important;
+        height: 100%;
+        flex: 1;
+    }
+    .rightb{
+        height: auto !important;
+        display: flex;
+        gap: 20px;
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+}

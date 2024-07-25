@@ -1,0 +1,74 @@
+.top {
+    width: 100%;
+    display: flex;
+    padding: 5px 2%;
+    align-items: end;
+    justify-content: space-between;
+    position: sticky;
+    top: 0rem;
+    background-color: white;
+    z-index: 10;
+}
+
+.left {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.right {
+    display: flex;
+    gap: 7%;
+    align-items: center;
+    justify-content: end;
+    flex: 1;
+}
+
+.icon {
+    background-color: var(--bg-dark);
+    padding: 7px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icons {
+    color: var(--white);
+}
+
+.profile {
+    display: flex;
+    gap: 10px;
+}
+
+.name {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.ballance {
+    font-size: .8rem;
+}
+
+.workButton {
+    background-color: red;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.d {
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+}
+
+.workText {}

@@ -1,0 +1,225 @@
+[{
+  "_id": {
+    "$oid": "65d9db874791b754345f9e82"
+  },
+  "balance": 3.6800000000000423,
+  "amount": 50,
+  "createdAt": {
+    "$date": "2024-02-24T12:05:27.853Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65dd84c24791b75434640709"
+  },
+  "balance": 0.6800000000000423,
+  "amount": 53,
+  "createdAt": {
+    "$date": "2024-02-27T06:44:18.371Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65dd87424791b75434642377"
+  },
+  "balance": 0.6800000000000423,
+  "amount": 53,
+  "createdAt": {
+    "$date": "2024-02-27T06:54:58.502Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65df4f45461745e6cc7de892"
+  },
+  "balance": 0,
+  "amount": 1.76,
+  "createdAt": {
+    "$date": "2024-02-28T15:20:37.117Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65df5147461745e6cc7dea83"
+  },
+  "balance": 0,
+  "amount": 1.76,
+  "createdAt": {
+    "$date": "2024-02-28T15:29:11.859Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e08be5461745e6cc7e3916"
+  },
+  "balance": 1.54,
+  "amount": 0,
+  "createdAt": {
+    "$date": "2024-02-29T13:51:33.806Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e08c74461745e6cc7e3922"
+  },
+  "balance": 0.54,
+  "amount": 1,
+  "createdAt": {
+    "$date": "2024-02-29T13:53:56.259Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e18a82461745e6cc7e592b"
+  },
+  "balance": 0,
+  "amount": 1.54,
+  "createdAt": {
+    "$date": "2024-03-01T07:57:54.894Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65e18a94461745e6cc7e59d5"
+  },
+  "balance": 0,
+  "amount": 1.54,
+  "createdAt": {
+    "$date": "2024-03-01T07:58:12.712Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65eaaffe650ddad3b8dfe047"
+  },
+  "astro": {
+    "$oid": "65bf257dc78ba9b57c7ff495"
+  },
+  "balance": 2.52,
+  "amount": 1,
+  "transactionID": "Tx1ndZfzKfUqNPgfD",
+  "createdAt": {
+    "$date": "2024-03-08T06:28:14.405Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-08T06:28:14.405Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65eafc5eeb4e2478b132d0a7"
+  },
+  "astro": {
+    "$oid": "65bf257dc78ba9b57c7ff495"
+  },
+  "balance": 1.9100000000000001,
+  "amount": 11,
+  "transactionID": "Tx0GNZKgbTW1zjySL",
+  "createdAt": {
+    "$date": "2024-03-08T11:54:06.719Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-08T11:54:06.719Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65eafcbdeb4e2478b132d38c"
+  },
+  "astro": {
+    "$oid": "65bf257dc78ba9b57c7ff495"
+  },
+  "balance": 1.9100000000000001,
+  "amount": 0,
+  "transactionID": "TxTRuSsVSKUWF2jcc",
+  "createdAt": {
+    "$date": "2024-03-08T11:55:41.162Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-08T11:55:41.162Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f48167fa8a38fda2008c95"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "balance": 46.76000000000005,
+  "amount": 10,
+  "transactionID": "TxEqw1RwKDFMPuRj4",
+  "createdAt": {
+    "$date": "2024-03-15T17:12:07.070Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-15T17:12:07.070Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f48187fa8a38fda2008cd8"
+  },
+  "astro": {
+    "$oid": "658fbfde641757286eea6ee4"
+  },
+  "balance": 36.76000000000005,
+  "amount": 10,
+  "transactionID": "TxZT1n1OxMgAEQyrw",
+  "createdAt": {
+    "$date": "2024-03-15T17:12:39.714Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-15T17:12:39.714Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65fa958889303b00ade8ee5d"
+  },
+  "astro": {
+    "$oid": "65e99745650ddad3b8dded08"
+  },
+  "balance": 29,
+  "amount": 1,
+  "transactionID": "TxxNCC4u1AZanGwHy",
+  "createdAt": {
+    "$date": "2024-03-20T07:51:36.022Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-20T07:51:36.022Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65fa97e589303b00ade9016e"
+  },
+  "astro": {
+    "$oid": "65e99745650ddad3b8dded08"
+  },
+  "balance": 28,
+  "amount": 1,
+  "transactionID": "TxTqr7K2jYnIf0x6f",
+  "createdAt": {
+    "$date": "2024-03-20T08:01:41.545Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-20T08:01:41.545Z"
+  },
+  "__v": 0
+}]

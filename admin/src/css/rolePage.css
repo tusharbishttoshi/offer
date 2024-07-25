@@ -1,0 +1,111 @@
+.role {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roleContainer {
+    border: 1px solid var(--cta-dark);
+    border-radius: 20px;
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+}
+
+.roleTop {
+    background-color: var(--white);
+    padding: 10px 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.roleTopLeft {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.roleTableContainer {
+    background-color: var(--yellow);
+    height: 100%;
+    width: 100%;
+}
+
+.roleNav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+.roleNav.create{
+    justify-content: flex-start;
+}
+.roleSearch {
+    background-color: var(--cta-white);
+    border: 2px solid var(--dark);
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 2px 10px;
+    gap: 5px;
+}
+
+.roleSearch input {
+    background-color: var(--cta-white);
+    outline: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.roleCreateBtn {
+    border: 2px solid var(--dark);
+    background-color: var(--cta-white);
+}
+
+
+table {
+    min-width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid var(--bg-white);
+}
+
+td {
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 15px 20px;
+}
+td img{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+thead {
+    background-color: var(--white);
+}
+
+.edit-delete-icons {
+    position: relative;
+  }
+  
+  .edit-icon,
+  .delete-icon {
+    position: absolute;
+    /* top: 5px;
+    right: 10px; */
+    opacity: 0; /* Initially hide the icons */
+    transition: opacity 0.3s ease;
+    cursor: pointer!important;
+  }
+  
+  .card-body:hover .edit-icon,
+  .card-body:hover .delete-icon {
+    opacity: 1; /* Show the icons on hover */
+  }
+  
+  

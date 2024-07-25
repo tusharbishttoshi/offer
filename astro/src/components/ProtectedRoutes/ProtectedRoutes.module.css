@@ -1,0 +1,119 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* width: 100%; */
+    background-color: var(--bg-white);
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sideBar {
+    /* background-color: var(--white); */
+    background-color: #f8f6f2;
+    /* box-shadow: 1px 1px 10px gray; */
+    width: 300px;
+    height: calc(100%);
+    /* position: sticky;
+    top: 1px;
+    overflow-y: scroll;  */
+}
+
+.top {
+    padding: 10px;
+    background-color: var(--cta-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topIcon {
+    background-color: var(--bg-dark);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+}
+
+.topIcons {
+    color: var(--bg-white);
+    font-size: 22px;
+}
+
+.routesContainer {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+    text-transform: capitalize;
+}
+
+.route {
+    width: 100%;
+    padding: 4px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.route a {
+    font-weight: 700;
+    color: gray;
+    text-decoration: none;
+}
+
+.subRoutes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    /* height: 0px; */
+    /* transform: scaleY(0px); */
+    /* transition: all 5s; */
+    overflow: hidden;
+}
+
+.subRoutes.active {
+    padding: 10px;
+    /* transform: scaleY(10px); */
+
+}
+
+.link {
+    color: var(--bg-dark);
+    text-decoration: none;
+    cursor: pointer;
+}
+.active {
+    border: 1px solid red;
+
+}
+.link.active {
+}
+
+.route .icon {}
+
+.sticky-top-5 {
+    position: sticky!important;
+    top: 5px!important;
+}
+.nav-item {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    margin: auto;
+    background-color: var(--cta-white);
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
