@@ -1,0 +1,124 @@
+.nav {
+    width: 100vw;
+    background-color: transparent;
+    position: absolute ;
+    top: 0px;
+    z-index: 30;
+}
+
+.nav>div {
+    max-width: 1400px;
+    width: 95%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.logo {
+    width: 180px;
+    cursor: pointer;
+}
+
+.logo img,
+.mobileLogo img {
+    height: 100%;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 3%;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.nav li {
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.option {
+    color: white;
+    align-items: center;
+    gap: 20px;
+}
+
+.option>div,
+.option>svg {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.mobileMenu,
+.option {
+    display: none;
+}
+
+.mobileMenu {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 1000000;
+    transform: translateX(-100%);
+    transition: all ease 0.05s;
+    color: black;
+    top: 0px;
+
+
+}
+
+.mobileMenu.active {
+    transform: translateX(0px);
+}
+
+.mobileMenu>div {
+    max-width: 450px;
+    background-color: var(--bg-white);
+    width: 100%;
+}
+
+.mobileMenu>div>div {
+    width: 100%;
+    box-shadow: 0px 0px 5px gray;
+    background-color: #F5B041;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mobileMenu>div>div>svg {
+    font-size: 1.2rem;
+    margin: 20px;
+}
+
+.mobileLogo {
+    width: 150px;
+    padding: 7px 10px;
+    margin-left: 40px;
+}
+
+@media screen and (max-width:767px) {
+    .nav ul {
+        display: none;
+    }
+    .nav>div{
+        height: 80px;
+    }
+    .logo {
+        width: 140px;
+    }
+    .option,
+    .mobileMenu {
+        display: flex;
+    }
+
+}

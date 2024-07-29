@@ -1,0 +1,151 @@
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    background: url("2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    /* Adjust the opacity (last parameter) as needed */
+}
+
+.logo {
+    width: 70px;
+    cursor: pointer;
+    z-index: 3;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.main h2 {
+    font-size: 2.2em;
+    color: white;
+}
+
+.main h3 {
+    font-size: 1.9em;
+    color: white;
+    font-weight: 500;
+}
+
+.main p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.main p svg {
+    font-size: 25px !important;
+}
+
+.textarea {
+    /* background-color: ; */
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    width: fit-content;
+    padding: 50px 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+}
+
+.textarea2 {
+    /* background-color: ; */
+    background: rgba(0, 0, 0, 0.349);
+    border-radius: 20px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-self: center;
+    padding: 50px 30px;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+}
+
+.textarea2 li {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+.textarea div {
+    cursor: pointer;
+    width: 80% !important;
+    margin-top: 20px !important;
+}
+
+@media screen and (max-width : 1150px) {
+    .main {
+        flex-direction: column;
+
+    }
+
+    .main>div:first-child {
+        flex-direction: column;
+        justify-content: flex-end !important;
+    }
+
+    .main>div {
+        margin-left: 0px !important;
+    }
+
+    .textarea2 {}
+}
+
+@media screen and (max-width : 975px) {
+    .main>div {
+        margin: 5% !important;
+    }
+}
+
+@media screen and (max-width : 525px) {
+
+    .textarea,
+    .textarea2 {
+        padding: 7% 5%;
+    }
+
+    .main h2 {
+        font-size: 1.9em;
+    }
+
+    .main h3 {
+        font-size: 1.5em;
+    }
+
+    .main p {
+        color: white;
+        font-size: 1.1rem;
+    }
+
+    .main p svg {
+        font-size: 20px !important;
+    }
+}
