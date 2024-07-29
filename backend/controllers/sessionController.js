@@ -154,6 +154,7 @@ exports.addSession = async (req, res) => {
             }
             totalChargeAmounts[key] += userChargeAmount;
 
+            console.log({totalChargeAmounts});
             if (totalChargeAmounts[key] > 7.53) {
                 astro.balance = parseFloat(astro.balance + astroChargeAmount)
                 astro.consultation = astro.consultation + 1
@@ -167,10 +168,10 @@ exports.addSession = async (req, res) => {
                 } else if (user.bonus > 0 && (userChargeAmount > user.bonus)) {
                     minusBonus = parseFloat(userChargeAmount - user.bonus)
                     user.bonus = 0
-                    minusBalance = parseFloat(user.balance - minusBonus)
+                   let minusBalance = parseFloat(user.balance - minusBonus)
                     user.balance = minusBalance >= 0 ? parseFloat(minusBalance) : 0
                 } else {
-                    minusBalance = parseFloat(user.balance - userChargeAmount)
+                  let minusBalance = parseFloat(user.balance - userChargeAmount)
                     user.balance = minusBalance >= 0 ? parseFloat(minusBalance) : 0
                 }
                 user.save()
@@ -184,15 +185,15 @@ exports.addSession = async (req, res) => {
                 let bank_count = await bankModel.find()
                 let transactionId = transactionID.length + bank_count.length
 
-                const a = await Session.create({ astroPrevBalance: astro.balance, id: xh.length + 1000000, review: reviews, astro: astroId, reason: value ? value : "N/A", amount_type_astro: amount_type_astro, amount_type_user: amount_type_user, adminEarn: admin_balace, user: userId, userPaid: -userChargeAmount, astroEarn: totalChargeAmounts[key] > 7.53 ? astroChargeAmount.toFixed(2) : 0, userPaidPrise: price, astroEarnPrise: astro.earnPrise, timeInSeconds: time, transactionID: transactionId + 100000000000 })
+                const a = await Session.create({ astroPrevBalance: astro.balance, id: xh.length + 1000000, review: reviews, astro: astroId, reason: value ? value : "N/A", amount_type_astro: amount_type_astro, amount_type_user: amount_type_user, adminEarn: admin_balace, user: userId, userPaid: -userChargeAmount, astroEarn: totalChargeAmounts[key] > 7.53 ? astroChargeAmount.toFixed(2) : 0.77, userPaidPrise: price, astroEarnPrise: astro.earnPrise, timeInSeconds: time, transactionID: transactionId + 100000000000 })
             } else if (user.balance > 0) {
                 if (user.balance > 0 && (userChargeAmount <= user.balance)) {
-                    minusBalance = parseFloat(user.balance - userChargeAmount)
+                   let minusBalance = parseFloat(user.balance - userChargeAmount)
                     user.balance = minusBalance >= 0 ? parseFloat(minusBalance) : 0
                 } else if (user.balance > 0 && (userChargeAmount > user.balance)) {
                     user.balance = 0
                 } else {
-                    minusBalance = parseFloat(user.balance - userChargeAmount)
+                   let minusBalance = parseFloat(user.balance - userChargeAmount)
                     user.balance = minusBalance >= 0 ? parseFloat(minusBalance) : 0
                 }
                 user.save()
@@ -206,7 +207,7 @@ exports.addSession = async (req, res) => {
                 let bank_count = await bankModel.find()
                 let transactionId = transactionID.length + bank_count.length
 
-                const a = await Session.create({ astroPrevBalance: astro.balance, id: xh.length + 1000000, review: reviews, astro: astroId, reason: value ? value : "N/A", amount_type_astro: amount_type_astro, amount_type_user: amount_type_user, adminEarn: admin_balace, user: userId, userPaid: -userChargeAmount, astroEarn: totalChargeAmounts[key] > 7.53 ? astroChargeAmount.toFixed(2) : 0, userPaidPrise: price, astroEarnPrise: astro.earnPrise, timeInSeconds: time, transactionID: transactionId + 100000000000 })
+                const a = await Session.create({ astroPrevBalance: astro.balance, id: xh.length + 1000000, review: reviews, astro: astroId, reason: value ? value : "N/A", amount_type_astro: amount_type_astro, amount_type_user: amount_type_user, adminEarn: admin_balace, user: userId, userPaid: -userChargeAmount, astroEarn: totalChargeAmounts[key] > 7.53 ? astroChargeAmount.toFixed(2) : 0.77, userPaidPrise: price, astroEarnPrise: astro.earnPrise, timeInSeconds: time, transactionID: transactionId + 100000000000 })
             }
             return res.status(200).json({ success: true })
         }

@@ -38,13 +38,23 @@ export default function AstrologerPage() {
   const [selectedType, setSelectedType] = useState(""); // State for selected type
   const [sortOrder, setsortOrder] = useState(""); // State for selected type
   const [startDate, setStartDate] = useState(""); // State for start date
-  const [endDate, setEndDate] = useState(""); // State for end date
+  const [endDate, setEndDate] = useState("");
+  const [statusModal, setStatusModal] = useState(false);
+  const [selectedAstrologer, setSelectedAstrologer] = useState(null);
+  const [newStatus, setNewStatus] = useState("");
+  const [reason, setReason] = useState(""); // State for end date
   // State for end date
 
   // Function to handle change in page size select
   const handlePageSizeChange = (event) => {
     const selectedPageSize = event.target.value;
     setPageSize(selectedPageSize);
+  };
+
+  const statusStyles = {
+    verified: { color: 'green' },
+    pending: { color: '#8B8000' },
+    rejected: { color: 'red' }
   };
 
   // Function to handle change in type select
@@ -76,7 +86,7 @@ export default function AstrologerPage() {
         setpageCount(totalPage);
         console.log(response?.data);
       }
-    } catch (err) {}
+    } catch (err) { }
   };
 
   const [currentPage, setCurrentPage] = useState(1);
@@ -113,6 +123,8 @@ export default function AstrologerPage() {
     }
   };
 
+
+
   useEffect(() => {
     AllAstrologerListApi();
   }, []);
@@ -145,8 +157,43 @@ export default function AstrologerPage() {
         setsortOrder(""); // Clear end date
         setSearch(""); // Clear end date
       }
-    } catch (err) {}
+    } catch (err) { }
   };
+
+  const handleStatusUpdate = (astro) => {
+    setSelectedAstrologer(astro);
+    setStatusModal(true);
+  };
+
+  // Add this function to handle the status update submission
+  const submitStatusUpdate = async () => {
+    if (newStatus === "rejected" && !reason) {
+      alert("Please provide a reason for rejection.");
+      return;
+    }
+
+    const payload = {
+      astroId: selectedAstrologer,
+      status: newStatus,
+      reason: newStatus === "rejected" ? reason : undefined,
+    };
+
+    try {
+      const response = await axios.post(`/api/v1/verify/astro`, payload);
+      if (response.data.success) {
+        toast.success("Status updated successfully");
+        setStatusModal(false);
+        setSelectedAstrologer(null);
+        setNewStatus("");
+        setReason("");
+        AllAstrologerListApi(); // Refresh list
+      } else {
+        toast.error("Failed to update status");
+      }
+    } catch (err) {
+      toast.error("Failed to update status");
+    }
+  }
 
   return (
     <div className="container p-2">
@@ -292,6 +339,7 @@ export default function AstrologerPage() {
                     <td>Name</td>
                     <td>Email</td>
                     <td>Phone</td>
+                    <td>Status</td>
                     <td>View</td>
                     <td>Invoice</td>
                   </tr>
@@ -303,7 +351,52 @@ export default function AstrologerPage() {
                       <td className="fs-7">{item?.name}</td>
                       <td className="fs-7">{item?.email}</td>
                       <td className="fs-7">{item?.number}</td>
+                      <tr key={item?._id}>
+  <td>
+    {item?.status === 'pending' ? (
+      <button
+        className="btn btn-sm"
+        style={statusStyles.pending}
+        onClick={() => handleStatusUpdate(item?._id)}
+      >
+        Pending
+      </button>
+    ) : item?.status === 'verified' ? (
+      <button
+        className="btn btn-sm"
+        style={statusStyles.verified}
+        disabled
+      >
+        Verified
+      </button>
+    ) : item?.status === 'rejected' ? (
+      <button
+        className="btn btn-sm"
+        style={statusStyles.rejected}
+        disabled
+      >
+        Rejected
+      </button>
+    ) : (
+      item?.status // Show status text in default case if needed
+    )}
+  </td>
 
+  {/* Display action button only if status is not 'pending' */}
+  {/* {item?.status !== 'pending' && (
+    <td>
+      <Link to="#">
+        <button
+          className={`btn ${item?.status === 'rejected' ? 'btn-danger' : 'btn-dark'} btn-sm`}
+          onClick={() => handleStatusUpdate(item?._id)}
+          disabled={item?.status === 'rejected'} // Disable button for rejected status
+        >
+          {item?.status === 'rejected' ? 'Reject' : 'Verify'}
+        </button>
+      </Link>
+    </td>
+  )} */}
+</tr>
                       <td>
                         <IoEyeSharp
                           size={25}
@@ -328,6 +421,67 @@ export default function AstrologerPage() {
             </div>
           )}
         </div>
+
+        {statusModal && (
+          <div className="modal fade show d-block" tabIndex="-1" role="dialog">
+            <div className="modal-dialog modal-dialog-centered" role="document">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <h5 className="modal-title">Update Status</h5>
+                  <button
+                    type="button"
+                    className="close"
+                    aria-label="Close"
+                    onClick={() => setStatusModal(false)}
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div className="modal-body">
+                  <label htmlFor="status">Select Status:</label>
+                  <select
+                    id="status"
+                    className="form-control"
+                    value={newStatus}
+                    onChange={(e) => setNewStatus(e.target.value)}
+                  >
+                    <option value="">Select</option>
+                    <option value="verified">Verified</option>
+                    <option value="rejected">Rejected</option>
+                  </select>
+
+                  {newStatus === "rejected" && (
+                    <div className="mt-3">
+                      <label htmlFor="reason">Reason for rejection:</label>
+                      <textarea
+                        id="reason"
+                        className="form-control"
+                        value={reason}
+                        onChange={(e) => setReason(e.target.value)}
+                      />
+                    </div>
+                  )}
+                </div>
+                <div className="modal-footer">
+                  <button
+                    type="button"
+                    className="btn btn-secondary"
+                    onClick={() => setStatusModal(false)}
+                  >
+                    Close
+                  </button>
+                  <button
+                    type="button"
+                    className="btn btn-primary"
+                    onClick={submitStatusUpdate}
+                  >
+                    Save changes
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
 
         <div className="col-lg-12 mt-2 text-end">
           <ReactPaginate

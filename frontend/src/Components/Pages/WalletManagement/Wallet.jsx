@@ -27,6 +27,7 @@ export const Wallet = () => {
   const [recharge, setRecharge] = useState([]);
 
   const [prise, setAmount] = useState(0);
+  const [userBalance, setUserBalance] = useState("");
   const [show, setShow] = useState(false);
   const [page, setPage] = useState("transition");
 
@@ -75,6 +76,7 @@ export const Wallet = () => {
     }
   };
 
+  
   const [currentPage, setCurrentPage] = useState(1);
 
   const [pageCount, setpageCount] = useState("");
@@ -120,7 +122,12 @@ export const Wallet = () => {
     AllRechargeApi();
     AllTransitionApi();
     AllReasonApi();
+    userProfile();
   }, []);
+
+  useEffect(() => {
+    userProfile();
+  }, [id]);
 
   const [Modalshow, setModalshow] = useState(false);
 
@@ -178,6 +185,22 @@ export const Wallet = () => {
     }
   };
 
+
+
+
+  const userProfile = async () => {
+    try {
+      const response = await axios.get(`api/v1/user/GetProfile/${id}`);
+      let Data = response?.data?.user;
+      if (Data) {
+        setUserBalance(Data)
+      console.log("userDetails",Data);
+       
+      }
+    } catch (err) { }
+  };
+
+
   return (
     <>
       <div
@@ -199,10 +222,10 @@ export const Wallet = () => {
           <p className="h4">Wallet</p>
           <div className="d-flex gap-2">
             <div className="bg-white d-flex align-items-center p-2 rounded">
-              USD {user?.balance > 0 ? user?.balance?.toFixed(2) : 0}
+              USD {userBalance?.balance > 0 ? userBalance?.balance?.toFixed(2) : 0}
             </div>
             <div className="bg-white d-flex align-items-center p-2 rounded">
-              Bonus Balance {user?.bonus > 0 ? user.bonus?.toFixed(2) : 0}
+              Bonus Balance {userBalance?.bonus > 0 ? userBalance.bonus?.toFixed(2) : 0}
             </div>
             <div
               className="bg-warning text-white border border-warning d-flex align-items-center p-2 rounded"

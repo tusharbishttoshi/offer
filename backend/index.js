@@ -3,7 +3,7 @@ const cloudinary = require("cloudinary");
 const connectDatabase = require("./config/database");
 const dotenv = require("dotenv")
 
-
+const {updateAccounts} = require("./controllers/adminController")
 // Handling Uncaught Exception
 process.on("uncaughtException", (err) => {
   console.log(`Error: ${err.message}`);
@@ -57,21 +57,19 @@ const Log = require("./models/loginActivity");
 const { allMessages } = require("./controllers/chatController");
 const User = require("./models/userModel")
 const Astro = require("./models/astroModel");
-const { find } = require("./models/adminModel");
+// const { find } = require("./models/adminModel");
 
 // let socket = io({
 //   auth: {
 //     id: "34346456757867854" // Pass the user ID as part of the authentication
 //   }
 // });
-
 io.on("connection", async (socket) => {
   console.log("connection", socket.handshake.auth);
-  if (socket.handshake.auth.user === "astro") {
-    await Astro.findByIdAndUpdate({ _id: socket.handshake.auth.id }, { isOnline: "Online" }, { new: true });
-    socket.broadcast.emit("offline", { id: socket.handshake.auth.id })
-
-  }
+  // if (socket.handshake.auth.user === "astro") {
+  //   await Astro.findByIdAndUpdate({ _id: socket.handshake.auth.id }, { isOnline: "Online" }, { new: true });
+  //   socket.broadcast.emit("offline", { id: socket.handshake.auth.id })
+  // }
   socket.on("setup", (userData) => {//
 
     // console.log("setup", userData)
@@ -82,10 +80,11 @@ io.on("connection", async (socket) => {
     // console.log("JOINROMM", { room })
     socket.join(room)
   })
-  socket.on("sendRequest", ({ astrologerId, user }) => {//
+  socket.on("sendRequest", ({ astrologerId, user }) => {
 
-    console.log("sendRequest", astrologerId, user)
     socket.in(astrologerId).emit("receiveRequest", { user })
+    
+    // console.log("sendRequest", astrologerId, user)
 
   })
   socket.on("stopTime", ({ id }) => {   //
@@ -94,20 +93,20 @@ io.on("connection", async (socket) => {
   })
 
   socket.on("startTime", ({ id }) => {
-    console.log("startTime", id);
+    // console.log("startTime", id);
     socket.broadcast.emit("liveAstro", { id })
   })
 
 
   socket.on("endTime", ({ id }) => {
-    console.log("endTime", id);
+    // console.log("endTime", id);
     socket.broadcast.emit("endWork", { id })
 
   })
 
   socket.on("charRedirect", ({ path, astro, userId }) => {
 
-    console.log("charRedirect", path, astro, userId)
+    // console.log("charRedirect", path, astro, userId)
     socket.in(userId).emit("ChatPage", { path, astro })
   })
 
@@ -138,26 +137,28 @@ io.on("connection", async (socket) => {
   // 
   //
   socket.on("acceptRequest", ({ clientId, astro }) => {
-    console.log("acceptRequest", clientId, astro)
+    // console.log("acceptRequest", clientId, astro)
 
     socket.in(clientId).emit("AstrologerCall", astro)
   })
 
   socket.on("endChat", ({ id }) => {
-    console.log(id)
+    // console.log(id)
   })
   socket.on("test", () => {
-    console.log("hii")
+    // console.log("hii")
   })
   socket.on("disconnect", async () => {
     if (socket.handshake.auth.user === "astro") {
       let a = await Astro.findByIdAndUpdate({ _id: socket.handshake.auth.id }, { isOnline: "Offline" }, { new: true });
       if (a) {
-        console.log(socket.handshake.auth.id);
+        console.log("offline",socket.handshake.auth.id);
         const b = new Date()
-        let find = await Log.find({ type: "WorkTime" }).sort({ createdAt: -1 })
-        // const a = await Log.findOneAndUpdate({ astro: socket.handshake.auth.id, _id: find[0]?._id }, { endAt: b }, { new: true })
-        socket.broadcast.emit("offline", { id: a._id })
+        let find = await Log.find({ type: "WorkTime" }).sort({ createdAt: -1 }).limit(1)
+        if(find){
+          const a = await Log.findOneAndUpdate({ astro: socket.handshake.auth.id, _id: find[0]?._id }, { endAt: b }, { new: true })
+          socket.broadcast.emit("offline", { id: a._id })
+        }
       }
     }
   });

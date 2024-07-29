@@ -82,7 +82,7 @@ function Transaction() {
         console.log({ totalPage });
         setpageCount(totalPage || 0);
       }
-    } catch (err) { }
+    } catch (err) {}
   };
 
   useEffect(() => {
@@ -138,7 +138,7 @@ function Transaction() {
           <div className="col-md-10">
             <div className="page-title-box my-3">
               <h4>User Transaction Management</h4>
-              {/* 
+{/* 
               <ol className="breadcrumb m-0">
                 <li className="breadcrumb-item active">
                   User Transaction Management
@@ -261,8 +261,7 @@ function Transaction() {
                 </thead>
 
                 <tbody style={{ overflow: "scroll" }}>
-                  {/* {AllTransition?.filter(user => user.astroEarn !== 0)?.map((user) => ( */}
-                  {AllTransition?.map((user) => (
+                  {AllTransition?.filter(user => user.astroEarn !== 0)?.map((user) => (
                     <tr key={user._id} style={{ cursor: "pointer" }}>
                       <td>{user?.transactionID}</td>
                       <td>
@@ -286,7 +285,7 @@ function Transaction() {
                           </>
                         )}
                       </td>
-                      <td style={{ color: user?.astroEarn >= 0 ? "#4fc9da" : "#f06445" }}> $ {user?.astroEarn?.toFixed(2) || -user?.amount}</td>
+                      <td style={{color:user?.astroEarn >= 0 ?"#4fc9da":"#f06445"}}> $ {user?.astroEarn?.toFixed(2) || -user?.amount}</td>
                       <td>{user?.amount_type_astro}</td>
                       <td>
                         <div

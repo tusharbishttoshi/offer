@@ -374,11 +374,11 @@ exports.loginAstro = catchAsyncErrors(async (req, res) => {
         throw new ErrorHandler("Invalid email, number or password", 401)
     }
     const token = astro.getJWTToken();
-    astro.isOnline = "Online"
-    astro.save()
+    // astro.isOnline = "Online"
+    // astro.save()
+    delete astro.reviews
     await log.create({ astro: astro._id, type: "Login" })
-    const a = await log.create({ astro: astro._id, type: "WorkTime" })
-
+    // const a = await log.create({ astro: astro._id, type: "WorkTime" })
     res.status(200).json({
         success: true,
         astro: astro,
@@ -473,8 +473,16 @@ exports.GetAstrologer = catchAsyncErrors(async (req, res) => {
     res.status(200).json({ success: true, astrologer })
 })
 
-exports.Astro = catchAsyncErrors(async (req, res) => {
-})
+exports.Astro = async (req, res) => {
+    try {
+        const { id } = req.params
+        let astrologer = await Astro.findById({ _id: id }).select({reviews:0})
+        return res.status(200).send({ success: true, astrologer })
+    } catch (error) {
+        console.log(error);
+        return res.status(500).send({ success: false })
+    }
+}
 
 exports.getSessionEarnAndInvoiceHistory = async (req, res) => {
     const { astroID, } = req.query;

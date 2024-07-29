@@ -10,6 +10,7 @@ import axios from 'axios'
 // const baseUrl = "http://localhost:8000/"
 // const baseUrl = "http://193.203.162.221:8000/"
 const baseUrl = "https://api.unzziptruth.com/"
+// const baseUrl = "http://192.168.29.5:8000/"
 
 
 axios.defaults.baseURL = baseUrl

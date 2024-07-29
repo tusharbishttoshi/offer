@@ -111,12 +111,12 @@ function ClientSession() {
                   <div className="row gx-2">
                     <div className="col-md-12 border-bottom">
                       <div className="row">
-                        {/* <div className="col-md-4">
+                        <div className="col-md-4">
                           <p>
                             <strong>Email</strong>
                           </p>
                           <p>{AllSessionData?.email}</p>
-                        </div> */}
+                        </div>
 
                         <div className="col-md-4">
                           <p>

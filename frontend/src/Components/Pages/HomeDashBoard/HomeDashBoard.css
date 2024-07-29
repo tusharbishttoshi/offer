@@ -2811,7 +2811,7 @@ CircularProgressbar {
 /* Login popup Start */
 .modal.show {
     opacity: 1;
-    background-color: rgb(3 29 46 / 87%);
+    background-color: rgba(248, 251, 252, 0.467);
 }
 
 .modal .modal-dialog {

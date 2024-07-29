@@ -47,8 +47,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 // const baseUrl = "http://localhost:8000/"
 // const baseUrl = "http://193.203.162.221:8000/"
-const baseUrl = "https://api.unzziptruth.com/"
-// const baseUrl = "http://api.unzziptruth.com/"
+// const baseUrl = "http://192.168.29.6:8000/"
+// const baseUrl = "https://api.unzziptruth.com/"
+const baseUrl = "http://api.unzziptruth.com/"
 
 axios.defaults.baseURL = baseUrl
 const storedValue = localStorage.getItem("user_info");

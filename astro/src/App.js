@@ -41,6 +41,7 @@ import Invoice from "./pages/Invoice";
 // const baseUrl = "http://localhost:8000/"
 // const baseUrl = "http://193.203.162.221:8000/"
 const baseUrl = "https://api.unzziptruth.com/";
+// const baseUrl = "http://192.168.29.5:8000/";
 
 function App() {
   const dispatch = useDispatch();
@@ -64,15 +65,15 @@ function App() {
   const [playActive, { stop }] = useSound(ring, { volume: 0.25 });
   let astroOnline = localStorage.getItem("astroOnline");
 
-  
+ 
   useEffect(() => {
     if (astro?._id) {
       // Establish socket connection
       socketRef.current = io(baseUrl, {
         auth: {
           id: astro._id,
-          user:"astro",
-          astroOnline
+          user: "astro",
+          astroOnline,
         },
       });
 
@@ -81,12 +82,12 @@ function App() {
 
       // Listen for connection and disconnection events
       socketRef.current.on("connect", () => {
-        // console.log("Socket connected");
+        console.log("Socket connected");
       });
 
-      socketRef.current.on("disconnect", () => {
-        // console.log("Socket disconnected");
-      });
+      // socketRef.current.on("disconnect", () => {
+      //   // console.log("Socket disconnected");
+      // });
 
       socketRef.current.on("connect_error", (error) => {
         console.log("Socket connection error:", error);
@@ -104,32 +105,51 @@ function App() {
 
   useEffect(() => {
     if (astro?._id) {
-      socketRef.current?.on("receiveRequest", ({ user }) => {
-        !chat._id && setUserRequest(user);
-        !userRequest._id && playActive();
+      const handleReceiveRequest = ({ user }) => {
+        if (!chat._id) setUserRequest(user);
+        if (!userRequest._id) playActive();
         console.log("receiveRequest");
-      });
+      };
 
-      socketRef.current?.on("stoppedChat", () => {
-        dispatch(busy({ id: astro._id, work: "Online" })).then(
-          () => window.location.reload(),
-          console.log("stop chat")
-        );
-
+      const handleStoppedChat = () => {
+        dispatch(busy({ id: astro._id, work: "Online" })).then(() => {
+          // window.location.reload();
+          console.log("stop chat");
+        });
         setChat({});
-      });
-      socketRef.current?.on("withdrawRequest", () => {
+      };
+
+      const handleWithdrawRequest = () => {
         setUserRequest({});
-      });
+      };
+
+      socketRef.current?.on("receiveRequest", handleReceiveRequest);
+      socketRef.current?.on("stoppedChat", handleStoppedChat);
+      socketRef.current?.on("withdrawRequest", handleWithdrawRequest);
+
+      // Cleanup function to remove listeners
+      return () => {
+        socketRef.current?.off("receiveRequest", handleReceiveRequest);
+        socketRef.current?.off("stoppedChat", handleStoppedChat);
+        socketRef.current?.off("withdrawRequest", handleWithdrawRequest);
+      };
     }
-  });
+  }, [
+    astro?._id,
+    chat._id,
+    userRequest._id,
+    dispatch,
+    setUserRequest,
+    playActive,
+    setChat,
+    socketRef,
+  ]);
 
   useEffect(() => {
     if (!userRequest._id) {
       stop();
     }
   }, [userRequest._id, stop]);
-
 
   return (
     <>

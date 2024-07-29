@@ -436,32 +436,40 @@ exports.verifyUser = catchAsyncErrors(async (req, res) => {
     })
 })
 exports.login = catchAsyncErrors(async (req, res) => {
-    let { c, p, firebase_token } = req.body
-    c = c.toLowerCase()
-    console.log({c});
-    let user = await User.findOne({ email: c }).select("+password")
-    if (!user) {
-        // throw new ErrorHandler("Invalid email ", 401)
-        return res.status(200).send({ success: false, msg: "Invalid email or password" })
-    }
-    if (!user?.verify) {
-        // throw new ErrorHandler("Invalid email ", 401)
-        return res.status(200).send({ success: false, msg: "please verify your account fisrt" })
-    }
 
-    const isPasswordMatched = await user.comparePassword(p);
-    if (!isPasswordMatched) {
-        // throw new ErrorHandler("Invalid  password", 401)
-        return res.status(200).send({ success: false, msg: "Invalid  password or password" })
+    try {
+        let { c, p, firebase_token } = req.body
+        c = c.toLowerCase()
+        console.log({c});
+        let user = await User.findOne({ email: c }).select("+password")
+        if (!user) {
+            // throw new ErrorHandler("Invalid email ", 401)
+            return res.status(200).send({ success: false, msg: "Invalid email or password" })
+        }
+        if (!user?.verify) {
+            // throw new ErrorHandler("Invalid email ", 401)
+            return res.status(200).send({ success: false, msg: "please verify your account fisrt" })
+        }
+    
+        const isPasswordMatched = await user.comparePassword(p);
+        if (!isPasswordMatched) {
+            // throw new ErrorHandler("Invalid  password", 401)
+            return res.status(200).send({ success: false, msg: "Invalid  password or password" })
+    
+        }
+        let update = await User.findByIdAndUpdate(user._id, { firebase_token: firebase_token }, { new: true })
+        const token = user.getJWTToken();
+      return  res.status(200).json({
+            success: true,
+            user,
+            token
+        })
+    } catch (error) {
+        console.log(error);
+        return res.status(500).send({ success: false, msg: "server error" })
 
     }
-    let update = await User.findByIdAndUpdate(user._id, { firebase_token: firebase_token }, { new: true })
-    const token = user.getJWTToken();
-    res.status(200).json({
-        success: true,
-        user,
-        token
-    })
+   
 })
 exports.tokenLogin = catchAsyncErrors(async (req, res) => {
     const token = req.body.token

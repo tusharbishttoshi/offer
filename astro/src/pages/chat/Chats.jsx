@@ -17,7 +17,10 @@ import {
 import { IoSearchOutline } from "react-icons/io5";
 import { useEffect } from "react";
 import { useRef } from "react";
+import { Link, useNavigate } from "react-router-dom";
 function Chats({ socketRef, chat, setChat }) {
+  const Navigation = useNavigate();
+
   const { astro, allMessages, UserSession } = useSelector(
     (state) => state.user
   );
@@ -42,7 +45,8 @@ function Chats({ socketRef, chat, setChat }) {
 
       setTimeout(() => {
         setd(false);
-        window.location.href = "/Dashboard";
+        // window.location.href = "/Dashboard";
+        Navigation("/Dashboard");
       }, 3000);
     }
   }, [chat]);
@@ -497,7 +501,8 @@ function Chats({ socketRef, chat, setChat }) {
       ).then((e) => {
         if (e?.payload?.success) {
           setChat({});
-          window.location.href = "/Dashboard";
+          // window.location.href = "/Dashboard";
+          Navigation("/Dashboard");
         }
       });
     }
@@ -525,7 +530,8 @@ function Chats({ socketRef, chat, setChat }) {
       })
     ).then((e) => {
       if (e?.payload?.success) {
-        window.location.href = "/Dashboard";
+        // window.location.href = "/Dashboard";
+        Navigation("/Dashboard");
         setChat({});
       }
     });

@@ -90,19 +90,10 @@ function ChatHistory() {
                                 {allMessages?.map((e) => (
                                     <div style={{ gap: "2px", display: "flex", flexDirection: "column", alignItems: astro._id === e.sender ? "flex-end" : "flex-start", maxWidth: "85%", alignSelf: astro._id === e.sender ? "flex-end" : "flex-start", }}
                                     >
-                                        {e?.avatar?.url && (
-                                            <img
-                                                src={e?.avatar?.url}
-                                                alt="image"
-                                                className="img-fluid"
-                                                style={{ width: "100px", height: "100px" }}
-                                            />
-                                        )}
-                                        {e.content && (
-                                            <p style={{ backgroundColor: astro._id !== e.sender ? "#ffcaca" : "#cacaff", padding: "6px 15px", borderRadius: "6px", fontSize: "16px" }}>
-                                                {e.content}
-                                            </p>
-                                        )}
+
+                                        <p style={{ backgroundColor: astro._id !== e.sender ? "#ffcaca" : "#cacaff", padding: "6px 15px", borderRadius: "6px", fontSize: "16px" }}>
+                                            {e.content}
+                                        </p>
                                         <p style={{ color: "black", fontSize: "12px" }}>{e?.createdAt.split("T").slice(0, 1)}  {new Date(e?.createdAt).getHours()}:{new Date(e?.createdAt).getMinutes()}</p>
                                     </div>
 

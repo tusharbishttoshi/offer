@@ -22,11 +22,11 @@ function SessionsChat() {
     const date = new Date(e.createdAt);
     if (date > startDate && date < endDate) {
       return e;
-    } else {
+    }else{
       return e;
     }
   });
-  console.log({ fm })
+  console.log({fm})
   const dispatch = useDispatch();
   useEffect(() => {
     singleSession._id &&
@@ -34,15 +34,15 @@ function SessionsChat() {
         AdminFetchChat(
           userData?.isOnline
             ? {
-              astro: singleSession.astro?._id || singleSession.astro,
-              user: singleSession.user?._id || singleSession.user,
-            }
+                astro: singleSession.astro?._id || singleSession.astro,
+                user: singleSession.user?._id || singleSession.user,
+              }
             : {
-              astro: singleSession.astro?._id || singleSession.astro,
-              user: singleSession.user?._id || singleSession.user,
-              session_id: id,
-              offline: true,
-            }
+                astro: singleSession.astro?._id || singleSession.astro,
+                user: singleSession.user?._id || singleSession.user,
+                session_id: id,
+                offline: true,
+              }
         )
       ).then((e) => e.payload.success && setM(e.payload.messages));
   }, [singleSession]);
@@ -132,12 +132,12 @@ function SessionsChat() {
             </div>
             <div className="col-md-9">
               <div className="row">
-                {/* <div className="col-md-4">
+                <div className="col-md-4">
                   <p>
                     <strong>Email</strong>
                   </p>
                   <p>{singleSession?.user?.email}</p>
-                </div> */}
+                </div>
 
                 <div className="col-md-4">
                   <p>
@@ -190,27 +190,17 @@ function SessionsChat() {
                 alignSelf: astro._id !== e.sender ? "flex-end" : "flex-start",
               }}
             >
-              {e?.avatar?.url && (
-                <img
-                  src={e?.avatar?.url}
-                  alt="image"
-                  className="img-fluid"
-                  style={{ width: "100px", height: "100px" }}
-                />
-              )}
-              {e.content && (
-                <p
-                  style={{
-                    backgroundColor:
-                      astro._id === e.sender ? "#ffcaca" : "#cacaff",
-                    padding: "6px 15px",
-                    borderRadius: "6px",
-                    fontSize: "16px",
-                  }}
-                >
-                  {e.content}
-                </p>
-              )}
+              <p
+                style={{
+                  backgroundColor:
+                    astro._id === e.sender ? "#ffcaca" : "#cacaff",
+                  padding: "6px 15px",
+                  borderRadius: "6px",
+                  fontSize: "16px",
+                }}
+              >
+                {e.content}
+              </p>
               <p style={{ color: "black", fontSize: "12px" }}>
                 {e.createdAt.split("T").slice(0, 1)}{" "}
                 {new Date(e.createdAt).getHours()}:

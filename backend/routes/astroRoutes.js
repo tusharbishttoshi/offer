@@ -26,7 +26,7 @@ router.route("/astro/login").post(loginAstro)
 router.route("/astro/:token").get(TokenAstro)
 
 // router.route("/myAstro/:id").get(myAstro)
-router.route("/astro/:id").get(Astro)
+router.route("/astros/:id").get(Astro)
 router.route("/astro/start/:id").get(StartAstro)
 router.route("/astro/stop").post(StopAstro)
 router.route("/astro/busy").post(BusyAstro)

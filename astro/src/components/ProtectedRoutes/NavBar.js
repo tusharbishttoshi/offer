@@ -24,7 +24,7 @@ function NavBar({ socketRef }) {
   const { ClientRequests, astro, s } = useSelector((state) => state.user);
 
   const [isOnline, setIsOnline] = useState(
-    astro.isOnline === "Online" ? true : false
+    // astro.isOnline === "Online" ? true : false
   );
 
   const [AllLogActivity, setAllLogActivity] = useState(null);
@@ -37,6 +37,16 @@ function NavBar({ socketRef }) {
       let Data = response?.data?.workId;
       if (Data) {
         setAllLogActivity(Data);
+      }
+    } catch (err) {}
+  };
+
+  const AstroDetails = async (e) => {
+    try {
+      const response = await axios.get(`/api/v1/astros/${astro._id}`);
+      const Data = response?.data;
+      if (Data) {
+        setIsOnline(Data?.astrologer?.isOnline =="Online" ? true : false);
         console.log({ Data });
       }
     } catch (err) {}
@@ -44,14 +54,15 @@ function NavBar({ socketRef }) {
 
   useEffect(() => {
     AllLogFilter();
+    AstroDetails();
   }, [astro._id]);
 
-  socketRef.current?.on("offline", ({ id }) => {
-    console.log("liveAstro", { id });
-    if (token) {
-      // dispatch(TokenLogin({ token }));
-    }
-  });
+  // socketRef.current?.on("offline", ({ id }) => {
+  //   console.log("liveAstro", { id });
+  //   if (token) {
+  //     // dispatch(TokenLogin({ token }));
+  //   }
+  // });
 
   // useEffect(() => {
   //   if (astro?._id) {
